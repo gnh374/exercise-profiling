@@ -28,12 +28,7 @@ public class StudentService {
         List<StudentCourse> studentCourses = new ArrayList<>();
         for (Student student : students) {
             List<StudentCourse> studentCoursesByStudent = studentCourseRepository.findByStudentId(student.getId());
-            for (StudentCourse studentCourseByStudent : studentCoursesByStudent) {
-                StudentCourse studentCourse = new StudentCourse();
-                studentCourse.setStudent(student);
-                studentCourse.setCourse(studentCourseByStudent.getCourse());
-                studentCourses.add(studentCourse);
-            }
+            studentCourses.addAll(studentCoursesByStudent);
         }
         return studentCourses;
     }
