@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.*;
 
 /**
  * @author muhammad.khadafi
@@ -48,11 +49,12 @@ public class StudentService {
 
     public String joinStudentNames() {
         List<Student> students = studentRepository.findAll();
-        String result = "";
+        StringBuilder str = new StringBuilder();
         for (Student student : students) {
-            result += student.getName() + ", ";
+            str.append(student.getName());
+            str.append(", ");
         }
-        return result.substring(0, result.length() - 2);
+        return str.substring(0, str.length() - 2);
     }
 }
 
