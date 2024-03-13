@@ -62,7 +62,8 @@ Waktu eksekusi ```getAllStudentWithCourses()```
 ### api ```/highest-gpa```
 
 Sebelum optimisasi
-![before GUI](https://github.com/gnh374/exercise-profiling/assets/121223135/008b00a5-b454-4cd9-bdd6-8a377555539f)
+![before GUI](https://github.com/gnh374/exercise-profiling/assets/121223135/c727cc5b-effd-4e6e-9c0e-071ad06f0852)
+
 
 ![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/ca6d83eb-c29a-40bb-b9b7-b00dffb7b6aa)
 
