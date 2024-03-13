@@ -52,7 +52,7 @@ Sebelum optimisasi
 ![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/e35b569b-db77-4aa0-861d-14f91d356574)
 
 Setelah optimisasi
-
+![After](https://github.com/gnh374/exercise-profiling/assets/121223135/eb03cd23-8585-4d6a-a9be-9ff57958229c)
 Waktu eksekusi ```getAllStudentWithCourses()```
    
 - Sebelum optimisasi (ms): 15,692
@@ -68,6 +68,7 @@ Sebelum optimisasi
 
 Setelah optimisasi
 
+![After](https://github.com/gnh374/exercise-profiling/assets/121223135/055feb71-e3ef-4cb0-aa72-56d323a6cf6e)
 Waktu eksekusi ```findStudentWithHighestGpa()```
 
 - Sebelum optimisasi (ms): 617
@@ -83,6 +84,9 @@ Sebelum optimisasi
 ![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/feed0d81-e33b-4a09-9915-4aa7c37abddf)
 
 Setelah optimisasi
+
+
+![After](https://github.com/gnh374/exercise-profiling/assets/121223135/3a3225a9-445c-4489-b7e7-2b4ff0635c54)
 
 Waktu eksekusi ```joinStudentNames()```
 
