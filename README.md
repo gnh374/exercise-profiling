@@ -79,12 +79,14 @@ Waktu eksekusi ```findStudentWithHighestGpa()```
 ### api ```/all-student-name```
 
 Sebelum optimisasi
-![before GUI](https://github.com/gnh374/exercise-profiling/assets/121223135/f275fe75-359f-49e1-8e24-b113a2c6de53)
+![Before](https://github.com/gnh374/exercise-profiling/assets/121223135/cbd251b7-849c-45ae-b4c9-b2a92eea094d)
+
 
 ![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/feed0d81-e33b-4a09-9915-4aa7c37abddf)
 
 Setelah optimisasi
-![After](https://github.com/gnh374/exercise-profiling/assets/121223135/fd0da4a8-b236-4971-ab62-2bd198b36729)
+![After](https://github.com/gnh374/exercise-profiling/assets/121223135/1a0cbd2a-37cd-4822-9ace-624591aefa2a)
+
 
 
 Waktu eksekusi ```joinStudentNames()```
