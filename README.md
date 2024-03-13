@@ -48,42 +48,47 @@ Untuk memastikan bahwa output yang dihasilkan tetap sama setelah melakukan optim
 ### api ```/all-student```
 
 Sebelum optimisasi
-
+![before GUI](https://github.com/gnh374/exercise-profiling/assets/121223135/35ddf0c1-6dbe-45c0-bd00-8301aed102df)
+![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/e35b569b-db77-4aa0-861d-14f91d356574)
 
 Setelah optimisasi
 
 Waktu eksekusi ```getAllStudentWithCourses()```
    
-- Sebelum optimisasi (ms)
-- Setelah optimisasi (ms):
-- Persentase perbedaan: 
+- Sebelum optimisasi (ms): 15,692
+- Setelah optimisasi (ms): 5,915
+- Persentase perbedaan: 62.31 %
 - 
 ### api ```/highest-gpa```
 
 Sebelum optimisasi
+![before GUI](https://github.com/gnh374/exercise-profiling/assets/121223135/008b00a5-b454-4cd9-bdd6-8a377555539f)
 
+![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/ca6d83eb-c29a-40bb-b9b7-b00dffb7b6aa)
 
 Setelah optimisasi
 
 Waktu eksekusi ```findStudentWithHighestGpa()```
 
-- Sebelum optimisasi (ms)
-- Setelah optimisasi (ms):
-- Persentase perbedaan: 
+- Sebelum optimisasi (ms): 617
+- Setelah optimisasi (ms): 12
+- Persentase perbedaan: 98.06%
 
 
 ### api ```/all-student-name```
 
 Sebelum optimisasi
+![before GUI](https://github.com/gnh374/exercise-profiling/assets/121223135/f275fe75-359f-49e1-8e24-b113a2c6de53)
 
+![before CLI](https://github.com/gnh374/exercise-profiling/assets/121223135/feed0d81-e33b-4a09-9915-4aa7c37abddf)
 
 Setelah optimisasi
 
 Waktu eksekusi ```joinStudentNames()```
 
-- Sebelum optimisasi (ms)
-- Setelah optimisasi (ms):
-- Persentase perbedaan:
+- Sebelum optimisasi (ms): 1,555
+- Setelah optimisasi (ms): 156
+- Persentase perbedaan: 89.97 %
     
 
 
