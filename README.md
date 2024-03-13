@@ -58,7 +58,7 @@ Waktu eksekusi ```getAllStudentWithCourses()```
 - Sebelum optimisasi (ms): 15,692
 - Setelah optimisasi (ms): 5,915
 - Persentase perbedaan: 62.31 %
-- 
+
 ### api ```/highest-gpa```
 
 Sebelum optimisasi
@@ -97,5 +97,5 @@ Waktu eksekusi ```joinStudentNames()```
 - Persentase perbedaan: 89.97 %
     
 
-
+Kesimpulan: Dengan melihat sample time pada JMeter sebelum dan sesudah optimisasi, terlihat bahwa waktu eksekusi program setelah optimisasi lebih singkat dari pada waktu eksekusi sebelum optimisasi. Dengan demikian, penggunaan Intelij Profiler terbukti efektif dalam menganalisis bagian program yang perlu dioptimalkan.
 
