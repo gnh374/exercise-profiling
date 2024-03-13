@@ -43,6 +43,48 @@
 Untuk memastikan bahwa output yang dihasilkan tetap sama setelah melakukan optimisasi, saya membandingkan output yang ada pada postman sebelum dan sesudah dilakukan optimisasi walaupun sebenarnya menerapkan unit-test akan lebih efektif.
 
 
+## Report
+
+### api ```/all-student```
+
+Sebelum optimisasi
+
+
+Setelah optimisasi
+
+Waktu eksekusi ```getAllStudentWithCourses()```
+   
+- Sebelum optimisasi (ms)
+- Setelah optimisasi (ms):
+- Persentase perbedaan: 
+- 
+### api ```/highest-gpa```
+
+Sebelum optimisasi
+
+
+Setelah optimisasi
+
+Waktu eksekusi ```findStudentWithHighestGpa()```
+
+- Sebelum optimisasi (ms)
+- Setelah optimisasi (ms):
+- Persentase perbedaan: 
+
+
+### api ```/all-student-name```
+
+Sebelum optimisasi
+
+
+Setelah optimisasi
+
+Waktu eksekusi ```joinStudentNames()```
+
+- Sebelum optimisasi (ms)
+- Setelah optimisasi (ms):
+- Persentase perbedaan:
+    
 
 
 
